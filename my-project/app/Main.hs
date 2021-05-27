@@ -17,15 +17,8 @@ import qualified GI.Gio as Gio
 import qualified GI.Gtk as Gtk
 import Data.GI.Base
 import Data.Text.Encoding 
-import qualified Data.ByteString 
+--import qualified Data.ByteString 
 
-
---printHello :: IO ()
---printHello = do
---                 putStrLn "Hello, World!"
---                 buffer1 <- Gtk.entryGetBuffer entry1
---                 buffer2 <- Gtk.entryBufferGetText buffer1
---                 set label1 [ #sensitive := False, #label := buffer2 ]
 
 activateApp :: Gtk.Application -> IO ()
 activateApp app = do
